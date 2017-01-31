@@ -6,6 +6,7 @@
 // @author       CallingForIt
 // @match        https://drawception.com/*
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/notz0ry/CallingForIt/master/main.js
 // ==/UserScript==
 
 (function() {
