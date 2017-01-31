@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         New Userscript
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @name         CallingForIt
+// @namespace    https://raw.githubusercontent.com/notz0ry/CallingForIt/master/main.js
+// @version      0.1.1
 // @description  try to take over the world!
 // @author       CallingForIt
 // @match        https://drawception.com/*
@@ -47,6 +47,6 @@
         document.getElementsByClassName("pull-left navbar-userbar")[0].children[0].outerHTML = "";
     }
 
-    
+
     
 })();
