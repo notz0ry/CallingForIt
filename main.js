@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         (Dropbox) Calling for Canvas
-// @namespace    http://7te.6te.net/callingforit/main.js
-// @version      0.1.6
+// @namespace    https://dl.dropboxusercontent.com/s/dvt3qmuapty6mbv/main.js
+// @version      0.1.7
 // @description  Canvas in anders
 // @author       CallingForIt
 // @match        https://drawception.com/*
 // @grant        none
-// @updateURL    http://7te.6te.net/callingforit/main.js
+// @updateURL    https://dl.dropboxusercontent.com/s/dvt3qmuapty6mbv/main.js
 // ==/UserScript==
 
 (function() {
