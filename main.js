@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CallingForIt
 // @namespace    https://raw.githubusercontent.com/notz0ry/CallingForIt/master/main.js
-// @version      0.1.1.1
+// @version      0.1.1b
 // @description  try to take over the world!
 // @author       CallingForIt
 // @match        https://drawception.com/*
@@ -11,8 +11,7 @@
 
 (function() {
     'use strict';
-
-    console.log("TM: Executing CallingForIt... ");
+    console.log("TM-START: Executing CallingForIt... ");
 
     // Extracting Main Menu
     extractMainMenu();
@@ -50,5 +49,7 @@
     }
 
 
-    
+
+
+    console.log("TM-END: Executing CallingForIt... ");
 })();
