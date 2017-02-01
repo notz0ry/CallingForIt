@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CallingForIt
 // @namespace    https://raw.githubusercontent.com/notz0ry/CallingForIt/master/main.js
-// @version      0.1.1b
+// @version      0.1.2
 // @description  try to take over the world!
 // @author       CallingForIt
 // @match        https://drawception.com/*
