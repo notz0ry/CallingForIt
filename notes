@@ -1,6 +1,10 @@
 Console Log vom Start des Scriptes
+
 Extraieren vom Main Menu
 
+kill tag h1[0] "Sandbox"
+kill class lead[0] "Sandbox description"
+kill id main -> class "Layout"
 
 
 Console Log vom Beenden des Scriptes

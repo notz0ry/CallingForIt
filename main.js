@@ -31,17 +31,17 @@
             let buttonSpan = document.createElement("span");
             buttonSpan.className = mainmenu[i].children[0].className;
 
-
             if( mainmenu[i].innerText == " Sandbox" ){
                 buttonA.style.background = "rgb(160,160,233)";
                 buttonA.onmouseover = function(){this.style.background = "rgb(170,170,243)";};
                 buttonA.onmouseout = function(){this.style.background = "rgb(160,160,233)";};
                 buttonSpan.className = "glyphicon glyphicon-edit";
             }
-
-            buttonA.appendChild(buttonSpan);
-            button.appendChild(buttonA);
-            leftbar.appendChild(button);
+            if( mainmenu[i].innerText != " Home" ){
+                buttonA.appendChild(buttonSpan);
+                button.appendChild(buttonA);
+                leftbar.appendChild(button);
+            }
 
         }
         mainmenu.outerHTML = "";
