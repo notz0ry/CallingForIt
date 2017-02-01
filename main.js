@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         (Dropbox) Calling for Canvas
+// @name         Calling for Canvas
 // @namespace    https://dl.dropboxusercontent.com/s/dvt3qmuapty6mbv/main.js
-// @version      0.1.7
+// @version      0.1.8
 // @description  Canvas in anders
 // @author       CallingForIt
 // @match        https://drawception.com/*
