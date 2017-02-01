@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         CallingForIt
-// @namespace    https://raw.githubusercontent.com/notz0ry/CallingForIt/master/main.js
-// @version      0.1.3
-// @description  try to take over the world!
+// @name         (Dropbox) Calling for Canvas
+// @namespace    http://7te.6te.net/callingforit/main.js
+// @version      0.1.6
+// @description  Canvas in anders
 // @author       CallingForIt
 // @match        https://drawception.com/*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/notz0ry/CallingForIt/master/main.js
+// @updateURL    http://7te.6te.net/callingforit/main.js
 // ==/UserScript==
 
 (function() {
@@ -42,11 +42,30 @@
                 button.appendChild(buttonA);
                 leftbar.appendChild(button);
             }
-
-        }
+			createButton(function(){
+				alert("miau");
+			});
+        }		
         mainmenu.outerHTML = "";
         document.getElementsByClassName("pull-left navbar-userbar")[0].children[0].outerHTML = "";
+
+        function createButton(funct){
+            let button = document.createElement("div");
+            button.className = "pull-left navbar-userbar collapse navbar-collapse";
+            
+            let buttonA = document.createElement("a");
+            buttonA.className = "btn btn-menu navbar-btn navbar-user-item";
+            buttonA.onclick = funct;
+            
+            let buttonSpan = document.createElement("span");
+            buttonSpan.className = mainmenu[i].children[0].className;
+
+            buttonA.appendChild(buttonSpan);
+            button.appendChild(buttonA);
+            leftbar.appendChild(button);
+        }
     }
+
 
 
 
